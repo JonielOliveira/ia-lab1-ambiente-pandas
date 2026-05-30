@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project: local environment and generated artifacts
+/lab/.venv/
+/lab/.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Editor / OS local files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
